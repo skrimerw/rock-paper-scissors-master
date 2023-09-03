@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+  <div class="modal">
+    <div class="modal-content">
+      <p>Rules</p>
+      <img class="cross" src="./images/icon-close.svg" alt="">
+      <img class="rules" src="./images/image-rules.svg" alt="">
+    </div>
+  </div>
+  <main>
+    <header>
+      <div class="players">
+        <p>Rock</p>
+        <p>Paper</p>
+        <p>Scissors</p>
+      </div>
+      <div class="score-section">
+        <p>score</p>
+        <h2 class="score">0</h2>
+      </div>
+    </header>
+    <section class="game-field">
+      <div class="game-field-section">
+        <svg class="triangle" width="313" height="278" viewBox="0 0 313 278" xmlns="http://www.w3.org/2000/svg">
+          <path stroke="#000" stroke-width="15" fill="none" opacity=".2" d="M156.5 262 300 8H13z" />
+        </svg>
+        <div class="player" id="rock">
+          <div class="player-inner-section">
+          </div>
+        </div>
+        <div class="player" id="paper">
+          <div class="player-inner-section">
+          </div>
+        </div>
+        <div class="player" id="scissors">
+          <div class="player-inner-section">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <button class="rules-btn">Rules</button>
+
+  <script type="module" src="./app.js"></script>
+</body>
+
+</html>
