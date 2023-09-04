@@ -7,7 +7,7 @@
 }
 
 body {
-  min-height: 100vh;
+  min-height: 100svh;
   background-image: radial-gradient(
     circle at center top,
     hsl(214, 47%, 23%),
@@ -76,7 +76,7 @@ header {
   /* background-image: url(./images/bg-triangle.svg);
   background-position: center center; */
   height: 100%;
-  transition: opacity .2s ease;
+  transition: opacity 0.2s ease;
 }
 
 @keyframes fade-away {
@@ -102,7 +102,7 @@ header {
   height: 140px;
   background-color: rgba(0, 0, 0, 0.297);
   padding: 17px;
-  transition: transform .2s ease;
+  transition: transform 0.2s ease;
 }
 
 .player:hover {
@@ -204,7 +204,7 @@ header {
 .modal {
   display: none;
   width: 100vw;
-  height: 100vh;
+  height: 100svh;
   background-color: rgba(0, 0, 0, 0.3);
   justify-content: center;
   align-items: center;
@@ -285,7 +285,7 @@ header {
   justify-self: auto;
   align-self: auto;
   animation-name: pop-out;
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
@@ -307,7 +307,7 @@ header {
 }
 .hide {
   animation-name: fade-away;
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
@@ -340,7 +340,7 @@ header {
   row-gap: 20px;
   align-self: self-end;
   animation-name: fade-in;
-  animation-duration: .7s;
+  animation-duration: 0.7s;
   animation-fill-mode: forwards;
 }
 
@@ -353,7 +353,7 @@ header {
   padding: 10px;
   border-radius: 5px;
   border: none;
-  transition: color .2s ease;
+  transition: color 0.2s ease;
 }
 
 .play-again-btn:hover {
@@ -400,7 +400,7 @@ header {
     grid-template-rows: auto 1fr auto;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 100svh;
     border-radius: 0;
   }
 
@@ -427,7 +427,7 @@ header {
 
   .play-again-btn {
     width: fit-content;
-    padding: 10px 20px;  
+    padding: 10px 20px;
   }
 
   .cross {
@@ -465,7 +465,7 @@ header {
   }
 
   .player {
-    width: 100px; 
+    width: 100px;
     height: 100px;
     padding: 12px;
   }
